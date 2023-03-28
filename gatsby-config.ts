@@ -17,6 +17,7 @@ const config: GatsbyConfig = {
     siteLanguage: `en`,
     author: `@lekoarts_de`,
   },
+  pathPrefix: "/web_blog",
   trailingSlash: `never`,
   plugins: [
     {
