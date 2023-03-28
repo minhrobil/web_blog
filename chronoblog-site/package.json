@@ -7,7 +7,7 @@
   "license": "MIT",
   "author": "Ivan Ganev <ganevio92@gmail.com>",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths && gh-pages -d public -b main",
     "clean": "gatsby clean",
     "start": "gatsby develop"
   },
@@ -67,6 +67,7 @@
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^1.18.2"
   },
   "engines": {
